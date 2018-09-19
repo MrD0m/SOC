@@ -13,7 +13,6 @@ Cảnh báo đưa ra mô tả việc mật khẩu (password) của người dùn
 # 3. Các thông tin cần thu thập
 * Xác định IP nguồn và IP đích của cảnh báo
 
-![](/Picture/SOC_PIC001/3.png)
 
 * Xác định nội dung payload được gửi đi trên giao diện Kibana bằng cú pháp lệnh
 > agent.name: **[tên sensor]** AND srcip: **[IP nguồn]** AND dstip: **[IP đích]** AND ips.msg: "ET POLICY Outgoing Basic Auth Base64 HTTP Password detected unencrypted"
